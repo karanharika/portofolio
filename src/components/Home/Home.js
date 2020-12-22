@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-// import * as ReactBootStrap from "react-ReactBootStrap";
 // import MediaQuery from "react-responsive";
 import "./Home.css";
 

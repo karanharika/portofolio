@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
+// import logo from './logo.svg';
 import './App.css';
-import Nav from "./components/Nav/Nav";
+import Navigation from "./components/Navigation/Navigation";
 import Footer from "./components/Footer/Footer";
 import Home from "./components/Home/Home";
 import Projects from "./components/Projects/Projects"
@@ -13,12 +13,12 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <Nav />
+        <Navigation />
         <Switch>
 
 
           <Route exact path="/"><Home /><Footer /></Route>
-          <Route path="/projects"><Projects></Projects></Route>
+          <Route path="/projects"><Projects /><Footer /></Route>
           {/* <Route path="/faq"><Faq /><Footer /></Route>
           <Route path="/info"><Info /><Footer /></Route>
           <Route path="/about"><About /><Footer /></Route>

@@ -1,0 +1,13 @@
+/* .navBar{
+    border-right: 1px solid cyan;
+    border-left: 1px solid rgb(255, 0, 140);
+} */
+
+.outNavBar{
+    background: linear-gradient(to right, rgb(255, 0, 128), rgb(0, 255, 191));
+    padding-bottom: 2px;
+}
+
+.inNavBar{
+    background: #222;
+}
