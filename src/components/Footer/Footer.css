@@ -7,7 +7,7 @@
 }
 
 .footDivOut{
-    position: absolute;
+    position: relative;
     bottom: 2px;
     left: 0px;
     width: 100%;

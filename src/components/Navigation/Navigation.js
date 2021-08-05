@@ -22,7 +22,7 @@ class Navigation extends Component {
                     {/* <Nav.Link href="#pricing">Pricing</Nav.Link> */}
                 </Nav>
                 </Navbar.Collapse>
-                
+
             </Navbar>
             </div></div>
         )
