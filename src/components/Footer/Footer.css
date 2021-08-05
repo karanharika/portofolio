@@ -1,0 +1,21 @@
+.icoStyle{
+    color: white;
+}
+
+.footCol3{
+    text-align: right;
+}
+
+.footDivOut{
+    position: relative;
+    bottom: 2px;
+    left: 0px;
+    width: 100%;
+    background: linear-gradient(to right, rgb(255, 0, 128), rgb(0, 255, 191));
+    padding-top: 1px;
+}
+
+.footDivIn{
+    padding: 20px;
+    background: #222;
+}
