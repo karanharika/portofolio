@@ -30,7 +30,7 @@ class Home extends Component {
                     <Col className="gap"> <ul className="text-center"> <h3>Wanna know a little about me?</h3> </ul> </Col>
                 </Row>
 
-                <Row className="textControl">
+                <Row className="textControl gap">
                     <Col >
                         <h5>
                             I am a recent BCIT graduate with Distinction in the extensive study program of Computer Information Technology.
