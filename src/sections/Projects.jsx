@@ -21,7 +21,7 @@ export default function Projects() {
           "
         >
           <h3 className="text-3xl font-semibold">
-            AI & Security Systems
+            AI & Security Systems (Comming Soon)
           </h3>
 
           <p className="mt-6 max-w-2xl text-zinc-400">
