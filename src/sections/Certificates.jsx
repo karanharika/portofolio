@@ -6,25 +6,25 @@ const certificates = [
   {
     title: "Ethical Hacker",
     issuer: "Cisco",
-    image: "/certificates/ethical-hacker.png",
+    image: `${import.meta.env.BASE_URL}certificates/ethical-hacker.png`,
     link: "https://www.credly.com/badges/51c242d1-7daf-4180-a90c-4cf4cd1d716f/public_url",
   },
   {
     title: "Network Defense",
     issuer: "Cisco",
-    image: "/certificates/network-defense.png",
+    image: `${import.meta.env.BASE_URL}certificates/network-defense.png`,
     link: "https://www.credly.com/badges/d534fdaf-119b-4e64-b694-344ae52037ed/public_url",
   },
   {
     title: "Darktrace Cyber Engineer",
     issuer: "Darktrace",
-    image: "/certificates/darktrace1.png",
+    image: `${import.meta.env.BASE_URL}certificates/darktrace1.png`,
     link: "https://www.credly.com/badges/6eb12d7a-bcff-4440-bc67-5fd60c509951/public_url",
   },
   {
     title: "Darktrace Threat Visualizer Essentials",
     issuer: "Darktrace",
-    image: "/certificates/darktrace2.png",
+    image: `${import.meta.env.BASE_URL}certificates/darktrace2.png`,
     link: "https://www.credly.com/badges/33c8e8b1-da7f-4dbc-9548-3fea8b7d3d2d/public_url",
   },
 ]
