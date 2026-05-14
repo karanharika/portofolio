@@ -7,7 +7,7 @@ import Contact from "../pages/Contact"
 
 export default function AppRouter() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/portofolio">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
